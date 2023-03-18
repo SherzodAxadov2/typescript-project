@@ -24,8 +24,8 @@ const Navbar = () => {
               href={`#${item.id}`}
               className={`${styles.navLink} ${
                 index === navigationLinks.length - 1 ? "mr-0" : "mr-10"
-              } ${active === item.id ? "text-white" : "text-lightWhite"}
-               hover:text-lightWhite transition-all duration-300`}
+              } ${active === item.id ? "active" : ""}
+               hover:text-white transition-all duration-300 navlink`}
               onClick={() => activeHandler(item.id)}
             >
               {item.title}
