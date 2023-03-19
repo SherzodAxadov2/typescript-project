@@ -1,6 +1,15 @@
 import React from "react";
 import { styles } from "./util/style";
-import { Billing, Contract, Home, Navbar, Statistics } from "./components";
+import {
+  Billing,
+  Bussines,
+  CTA,
+  Contract,
+  Home,
+  Navbar,
+  Statistics,
+  Testimonials,
+} from "./components";
 
 const App = () => {
   return (
@@ -25,6 +34,11 @@ const App = () => {
           <Statistics />
           <Contract />
           <Billing />
+          <Bussines />
+          <Testimonials />
+          <CTA />
+
+          {/* Footer */}
         </div>
       </div>
     </div>
