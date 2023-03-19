@@ -4,7 +4,7 @@ import { layout, styles } from "../util/style";
 const Billing = () => {
   return (
     <section
-      id="product"
+      id="features"
       className={`${layout.sectionReverse} items-center relative`}
     >
       <div className={`${layout.sectionImgReverse} `}>

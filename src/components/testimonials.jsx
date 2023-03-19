@@ -5,6 +5,7 @@ import FeedbackCard from "./feedback-card";
 const Testimonials = () => {
   return (
     <div
+      id="clients"
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
     >
       <div
@@ -27,7 +28,7 @@ const Testimonials = () => {
 
       <div className="flex flex-wrap sm:justify-start justify-center w-full relative z-[1]">
         {feedbacks.map((feedback) => (
-          <FeedbackCard key={feedback.id} {...feedback}/>
+          <FeedbackCard key={feedback.id} {...feedback} />
         ))}
       </div>
     </div>

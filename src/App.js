@@ -4,7 +4,9 @@ import {
   Billing,
   Bussines,
   CTA,
+  Clients,
   Contract,
+  Footer,
   Home,
   Navbar,
   Statistics,
@@ -36,9 +38,9 @@ const App = () => {
           <Billing />
           <Bussines />
           <Testimonials />
+          <Clients />
           <CTA />
-
-          {/* Footer */}
+          <Footer />
         </div>
       </div>
     </div>

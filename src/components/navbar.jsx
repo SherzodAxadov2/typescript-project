@@ -14,7 +14,7 @@ const Navbar = () => {
   const activeHandler = (id) => setActive(id);
   return (
     <div className={`${styles.flexBetween} w-full  navbar`}>
-      <div className={`${styles.heading} cursor-pointer`}>
+      <div className={`${styles.heading1} cursor-pointer`}>
         <img src={logo} alt="logo" className="w-[130px] " />
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center  ">
