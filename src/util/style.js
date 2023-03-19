@@ -16,3 +16,11 @@ export const styles = {
     "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   navLink: "font-montserrat font-normal text-[16px] text-white",
 };
+
+export const layout = {
+  section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
+  sectionIfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 relative `,
+  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative `,
+};

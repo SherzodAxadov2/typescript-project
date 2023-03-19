@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "./util/style";
-import { Home, Navbar, Statistics } from "./components";
+import { Billing, Contract, Home, Navbar, Statistics } from "./components";
 
 const App = () => {
   return (
@@ -23,6 +23,8 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} `}>
         <div className={`${styles.container}`}>
           <Statistics />
+          <Contract />
+          <Billing />
         </div>
       </div>
     </div>
